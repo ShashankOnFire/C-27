@@ -39,7 +39,7 @@ function setup(){
 
     bird = new Bird(100,100);
 	var options = {
-		bodyA :bird,body,
+		bodyA :bird.body,
 		bodyB : cLog.body,
 		stiffness:0.04,
 		length : 10
